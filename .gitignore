@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs and caches
+dist/
+build/
+out/
+.next/
+.cache/
+.turbo/
+
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment - the real values never leave your machine
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Test reports
+coverage/
+playwright-report/
+blob-report/
+test-results/
+
+# Deploy and OS
+.vercel
+*.pem
+.DS_Store
+Thumbs.db
+Desktop.ini
